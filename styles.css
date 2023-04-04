@@ -4,9 +4,9 @@
 }
 
 
-#First-Container p, #Second-Container figcaption, li {
+#First-Container p, #Second-Container figcaption, li, #Sign-Off p {
     font-size:11px;
-    color:#5F5F5F;
+    color:#2e2e2e;
 }
 
 li strong {
@@ -14,32 +14,32 @@ li strong {
 }
 #Second-Container {
     float:none;
-    padding-top: 10px;
-    padding-left: 450px;
-    padding-bottom: 10px;
+    display:block;
+    margin: 0 auto;
     background:white;
     
 }
 
 
 #Third-Container {
-    width:500px;
+    width:430px;
     text-align: left;
     display: block;
     margin: 0 auto;
     font-family: sans-serif;
 }
 
-#Second-Tittle {
+#Second-Title {
     text-align: center;
 }
 
 #Sign-Off {
-     width:500px;
+     width:350px;
     text-align: left;
     display: block;
     margin: 0 auto;
     font-family: sans-serif;
+    margin-left: 25px;
 }
 
 
@@ -50,6 +50,8 @@ body {
 img {
     height: 450px;
     width:740px ;
+    display:block;
+    margin: 0 auto;
 }
 
 
@@ -59,9 +61,12 @@ li {
 
 
 figcaption {
-    width:720px;
+    
     text-align: center;
     font-size: 12px;
     font-family: sans-serif;
     
+}
+footer {
+    text-align:center;
 }

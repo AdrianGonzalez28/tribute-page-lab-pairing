@@ -4,19 +4,14 @@
 }
 
 
-#First-Container p, #Second-Container figcaption, li, #Sign-Off p {
-    font-size:11px;
-    color:#2e2e2e;
-}
 
-li strong {
-    color: black;
-}
 #Second-Container {
     float:none;
     display:block;
     margin: 0 auto;
     background:white;
+    padding-bottom: 15px;
+    width: 95%;
     
 }
 
@@ -43,6 +38,15 @@ li strong {
 }
 
 
+#First-Container p, #Second-Container figcaption, li, #Sign-Off p {
+    font-size:11px;
+    color:#2e2e2e;
+}
+
+li strong {
+    color: black;
+}
+
 body {
     background:#efefee;
 }
@@ -65,6 +69,7 @@ figcaption {
     text-align: center;
     font-size: 12px;
     font-family: sans-serif;
+    padding-top: 10px;
     
 }
 footer {
